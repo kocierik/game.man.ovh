@@ -1,0 +1,4 @@
+game.man.ovh {
+    encode zstd gzip
+    reverse_proxy game-server:3000
+}
